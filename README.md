@@ -11,7 +11,7 @@ Historically, enterprise supply chain forecasting required massive, heavily engi
 ---
 
 ## 🏆 The Core Benchmark: M5 Forecasting
-The architecture we initialized maps directly to the most rigorous and foundational supply chain forecasting benchmark in data science history: The **M5 Forecasting Challenge** hosted by the Makridakis Open Forecasting Center (MOFC) alongside Walmart.
+The architecture we initialized maps directly to the most rigorous and foundational supply chain forecasting benchmark in data science history: The **[M5 Forecasting Challenge](https://www.kaggle.com/competitions/m5-forecasting-accuracy/overview)** hosted by the Makridakis Open Forecasting Center (MOFC) alongside Walmart.
 
 Because we engineered our repo using a dual-track output profile (mean prediction + quantile bands), our codebase spans across both companion tracks of this historical benchmark.
 
