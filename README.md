@@ -10,21 +10,6 @@ A high-performance forecasting engine utilizing **Amazon Chronos-2** language mo
 
 ---
 
-## 🛠️ Project Structure
-
-zero-shot-demand-foundation/
-├── configs/
-│   └── model_config.yaml      # Model identifiers and compute device mapping
-├── data/                      # Local storage for CSVs (Git ignored)
-├── src/
-│   ├── __init__.py
-│   ├── models/
-│   │   └── forecaster.py      # Core ZeroShotForecastingEngine wrapper
-│   └── utils/
-│       └── metrics.py         # WAPE and RMSSE metric calculation
-├── .gitignore                 # Excludes data/ and pycache/ from source control
-├── main.py                    # Pipeline execution and evaluation entry point
-└── README.md                  # System documentation
 
 ## ⚡ Quick Start
 
