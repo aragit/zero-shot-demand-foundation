@@ -1,0 +1,20 @@
+infrastructure:
+  device_map: "cpu" # Set explicitly to "cuda" if hardware accelerator paths are available
+  random_seed: 42
+
+models:
+  chronos:
+    repo_id: "amazon/chronos-2"
+    batch_size: 32
+    num_samples: 20 # Number of paths generated for quantile calculations
+    
+  timesfm:
+    repo_id: "google/timesfm-2.5-200m-pytorch"
+    context_len: 512 # Fallback execution context length if context vector fluctuates
+    per_core_batch_size: 32
+
+evaluation:
+  metrics:
+    - "WAPE"
+    - "MSSE"
+  backtest_window_steps: 128

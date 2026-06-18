@@ -1,0 +1,12 @@
+# Data Safeguards (M5 dataset is too large for GitHub)
+data/
+*.csv
+*.xlsx
+
+# Python environment & cache
+__pycache__/
+*.pyc
+.venv/
+env/
+.pytest_cache/
+.DS_Store

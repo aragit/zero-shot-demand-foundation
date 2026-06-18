@@ -1,0 +1,19 @@
+# Core Tensors & Deep Learning Runtime
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.30.0
+
+# Foundation Time-Series Adapters
+chronos-forecasting>=1.0.0
+timesfm>=1.0.0
+
+# Hardened Data Contracts & Pipeline Serialization
+pydantic>=2.7.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
+
+# Data Engineering Stack
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=15.0.0
+scikit-learn>=1.4.0
