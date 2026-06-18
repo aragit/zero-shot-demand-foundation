@@ -26,7 +26,8 @@ zero-shot-demand-foundation/
 ├── main.py                    # Pipeline execution and evaluation entry point
 └── README.md                  # System documentation
 
-##⚡ Quick Start
+## ⚡ Quick Start
+
 1. Prerequisites & Installation
 Ensure you have PyTorch, Hugging Face Transformers, and the Amazon Chronos package installed:
 
@@ -39,7 +40,7 @@ Download the M5 Forecasting competition data and place the evaluation file into 
 
 
 mkdir -p data
-# Place sales_train_evaluation.csv inside the data/ folder
+Place sales_train_evaluation.csv inside the data/ folder
 
 3. Execution
 Run the evaluation pipeline to test zero-shot capabilities against an active, high-volume item:
